@@ -1,0 +1,33 @@
+.nav-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 30vh;
+    background: url('https://assets.ccbp.in/frontend/react-js/books-blog-bg.png');
+}
+
+.nav-head{
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: bold;
+
+}
+
+.nav-menu{
+    list-style-type:none ;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: row;
+
+}
+.nav-item{
+    text-decoration: none;
+   color: #ffffff;
+   font-size: 15px;
+   font-weight: bold;
+   margin: 8px;
+   cursor: pointer;
+
+   
+}
